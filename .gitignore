@@ -1,0 +1,77 @@
+### общие исключения
+# IDE
+.idea/
+.DS_Store
+Thumbs.db
+bitrix/js/ipol.sdek/list.json
+#/bitrix/
+
+# dev backups
+*bak20*
+*bak-20*
+*.tar.gz
+
+# cache
+.sass-cache/
+
+node_modules
+.git/
+
+## если гит в корне сайта
+/upload/
+/.Trash*/
+/yml-catalogs/*.yml
+/robots.txt
+/sitemap*.xml
+/local/php_interface/vendor/
+/local/php_interface/include/env_vars.php
+/pathLog.txt
+/_s/
+*.csv
+### Битрикс
+## если гит в корне сайта
+
+# configs
+/bitrix/php_interface/dbconn.php
+/bitrix/.settings.php
+/bitrix/.settings_extra.php
+
+# backups
+/bitrix/backup
+!/bitrix/backup/index.php
+
+# logs
+/bitrix/*.log
+/bitrix/modules/updater.log
+/bitrix/modules/updater_partner.log
+
+# cache
+/bitrix/cache
+/bitrix/managed_cache
+/bitrix/stack_cache
+/bitrix/html_pages
+
+### exports
+/bitrix/catalog_export
+
+## themes
+/bitrix/themes
+
+*.log
+log/nps/
+
+.env
+local/logs/
+local/vendor/
+assets/.dist
+
+/auth_tmp.php
+
+sitemap.xml
+sitemaps/*
+*.log
+*.txt
+*.json
+
+.vscode
+/.vscode/

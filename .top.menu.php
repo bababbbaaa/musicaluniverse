@@ -1,0 +1,62 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+$aMenuLinks = Array(
+	Array(
+		"Новости",
+		"/news/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Статьи",
+		"/articles/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Спецпроекты",
+		"/special/",
+		Array(), 
+		Array(), 
+		"" 
+	),	
+	Array(
+		"Люди",
+		"/personalities/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Места",
+		"/places/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Произведения",
+		"/composition/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Мероприятия",
+		"/events/",
+		Array(),
+		Array(),
+		""
+	),
+	/*
+	Array(
+		"Мой кабинет",
+		"personal/",
+		Array(),
+		Array(),
+		"\$USER->IsAuthorized()"
+	),
+	*/
+);
+?>
